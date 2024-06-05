@@ -61,14 +61,10 @@ main img {
 
 /* Media screens for mobile */
 @media (min-width: 370px) and (max-width: 699px) {
-  .list {
-    display: grid;
-    justify-content: center;
-  }
-
   section {
     display: grid;
     background-color: rgb(10, 54, 65, 10%);
+    margin: 2em auto;
   }
 }
 
