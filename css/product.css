@@ -21,7 +21,7 @@ ul {
   padding-left: 0;
 }
 
-button{
+a.button{
   display: block;
   margin: auto;
   margin-top: 5em;
@@ -44,7 +44,7 @@ button{
 
 /* Media screens for desktop */
 @media (min-width: 1401px) {
-  button {
+  a.button {
     font-size: 1em;
   }
 
