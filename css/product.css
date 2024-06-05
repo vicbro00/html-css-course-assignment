@@ -22,17 +22,17 @@ ul {
 }
 
 a.button{
-  display: block;
-  margin: auto;
-  margin-top: 5em;
   font-family: "Open Sans";
-  padding: 1em 2em;
   background-color: rgb(10, 54, 65);
   border-style: solid;
   border-color: black;
   cursor: pointer;
   color: white;
-  min-width: 13em;
+  padding: 1em 2em;
+  display: flex;
+  margin: 4em auto;
+  justify-content: center;
+  width: 8em;
 }
 
 .bar {
