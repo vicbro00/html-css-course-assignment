@@ -235,6 +235,11 @@ input[type=checkbox] {
   .bottom {
     display: block;
   }
+
+  .shipping,
+  .forms2 {
+    margin: auto 1em;
+  }
 }
 
 /* Media screens for tablet */
