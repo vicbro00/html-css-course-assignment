@@ -11,23 +11,27 @@ main h1 {
   display: inline-block;
 }
 
+.cost-and-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+a.button,
 button {
   font-family: "Open Sans";
-  padding: 0.5rem 0.8rem;
   background-color: rgb(10, 54, 65);
   border-style: solid;
   border-color: black;
   cursor: pointer;
   color: white;
   padding: 1em 2em;
-  min-width: 12em;
 }
 
-.button-container {
+a.button {
   display: flex;
+  margin: 4em auto;
   justify-content: center;
-  align-items: center;
-  margin: 4em 0;
+  width: 8em;
 }
 
 .bar {
@@ -162,6 +166,7 @@ input[type=checkbox] {
 
 /* Media screens for desktop */
 @media (min-width: 1401px) {
+  a.button,
   button {
     font-size: 1em;
   }
@@ -206,7 +211,7 @@ input[type=checkbox] {
     grid-template-rows: repeat(2, 1fr);
   }
 
-  .product-info button {
+  .product-info a.button {
     margin: 0.5em auto;
   }
 
@@ -235,6 +240,7 @@ input[type=checkbox] {
 /* Media screens for tablet */
 @media (min-width: 700px) and (max-width: 1390px) {
 
+  a.button,
   button {
     font-size: 1em;
   }
@@ -244,7 +250,6 @@ input[type=checkbox] {
   h4 {
     margin-left: 1em;
   }
-
 
   .hide-mobile {
     display: none;

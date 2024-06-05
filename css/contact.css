@@ -10,7 +10,7 @@ p {
   color: black;
 }
 
-button{
+a.button{
   display: block;
   margin: auto;
   margin-top: 5em;
@@ -21,10 +21,11 @@ button{
   border-color: black;
   cursor: pointer;
   color: white;
-  min-width: 13em;
+  text-align: center;
+  width: 8em;
 }
 
-button:focus {
+a.button:focus {
   background-color: green;
 }
 
@@ -47,7 +48,7 @@ button:focus {
     min-width: 90%;
   }
 
-  button {
+  a.button {
     font-size: 1em;
   }
 
@@ -137,7 +138,7 @@ button:focus {
     margin: auto;
   }
 
-  button {
+  a.button {
     font-size: 1em;
   }
 
