@@ -29,11 +29,12 @@ img {
   margin: auto;
 }
 
-.mens-button,
-.womens-button {
+a.mens-button,
+a.womens-button {
   font-family: "Open Sans";
+  width: 8em;
   padding: 1em 2em;
-  min-width: 12em;
+  text-align: center;
   background-color: rgb(10, 54, 65);
   border-style: solid;
   border-color: black;
