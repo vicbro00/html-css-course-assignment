@@ -14,14 +14,6 @@ main p {
   margin-right: 1em;
 }
 
-main section {
-  background-color: rgb(10, 54, 65, 10%);
-  margin: 2em 0;
-  height: 20em;
-  width: 16em;
-  display: grid;
-}
-
 main img {
   height: 10em;
   object-fit: contain;
@@ -34,6 +26,14 @@ main img {
 
 /* Media screens for desktop */
 @media (min-width: 1401px) {
+  main section {
+    background-color: rgb(10, 54, 65, 10%);
+    margin: 2em 0;
+    height: 20em;
+    width: 16em;
+    display: grid;
+  }
+  
   #top-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -63,8 +63,12 @@ main img {
 @media (min-width: 370px) and (max-width: 699px) {
   .list {
     display: grid;
-    gap: 2em;
     justify-content: center;
+  }
+
+  section {
+    display: grid;
+    background-color: rgb(10, 54, 65, 10%);
   }
 }
 
