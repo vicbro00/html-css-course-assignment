@@ -20,8 +20,8 @@ main img {
   justify-self: center;
 }
 
-.list img{
-  margin-left: 25%;
+section a {
+  margin: auto;
 }
 
 /* Media screens for desktop */
