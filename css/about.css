@@ -4,7 +4,7 @@ main h1 {
 }
 
 .about-image {
-  background-image: url("/pictures/about-image.jpg");
+  background-image: url("../pictures/about-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -15,7 +15,7 @@ main h1 {
 }
 
 .about-image2 {
-  background-image: url("/pictures/about-image2.jpg");
+  background-image: url("../pictures/about-image2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
