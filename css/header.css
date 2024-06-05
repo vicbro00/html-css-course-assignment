@@ -74,10 +74,10 @@ header {
   display: none;
  }
 
- header img {
-  height: 1.2em;
-  margin-top: 0.2em;
- }
+header img {
+  max-height: 1.5em;
+  float: left;
+}
 
  nav {
   display: flex;
