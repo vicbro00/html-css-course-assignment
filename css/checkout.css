@@ -11,11 +11,6 @@ main h1 {
   display: inline-block;
 }
 
-.cost-and-button {
-  display: flex;
-  justify-content: space-between;
-}
-
 a.button,
 button {
   font-family: "Open Sans";
@@ -55,6 +50,11 @@ a.button {
   gap: 2.5%;
 }
 
+.cost-and-button {
+  display: flex;
+  justify-content: space-between;
+}
+
 /*Top part styling*/
 main img {
   object-fit: contain;
@@ -73,15 +73,16 @@ main h3 {
   display: inline-block;
 }
 
+.top img {
+  justify-self: center;
+  margin-top: 2em;
+}
+
+
 .top {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5%;
-}
-
-.top img {
-  justify-self: center;
-  margin-top: 2em;
 }
 
 .layout {
@@ -241,16 +242,15 @@ input[type=checkbox] {
 
 /* Media screens for tablet */
 @media (min-width: 700px) and (max-width: 1390px) {
-
-  a.button,
-  button {
-    font-size: 1em;
-  }
-
   p,
   h3,
   h4 {
     margin-left: 1em;
+  }
+
+  a.button,
+  button {
+    font-size: 1em;
   }
 
   .hide-mobile {

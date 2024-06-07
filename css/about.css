@@ -29,35 +29,39 @@ main h1 {
 
 /* Media screens for desktop */
 @media (min-width: 1401px) {
-  
+  p {
+    width: 70%;
+    word-spacing: 0.2em;
+    margin: 1.5em auto;
+  }
+
   .about-image2 {
     width: 20em;
     margin: auto;
     background-size: contain;
     background-color: rgb(10, 54, 65, 10%);
   }
-
-  p {
-    width: 70%;
-    word-spacing: 0.2em;
-    margin: 1.5em auto;
-  }
 }
 
 /* Media screens for mobile */
 @media (min-width: 370px) and (max-width: 699px) {
-  .about-image {
-    max-height: 10em;
-  }
-
   p {
     margin: 1em 2em;
     word-spacing: 0.2em;
+  }
+  
+  .about-image {
+    max-height: 10em;
   }
 }
 
 /* Media screens for tablet */
 @media (min-width: 700px) and (max-width: 1390px) {
+  p {
+    margin: 1em 2em;
+    word-spacing: 0.2em;
+  }
+ 
   .about-image {
     max-height: 20em;
   }
@@ -65,10 +69,5 @@ main h1 {
   .about-image2 {
     max-height: 40em;
     background-size: contain;
-  }
-
-  p {
-    margin: 1em 2em;
-    word-spacing: 0.2em;
   }
 }

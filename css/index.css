@@ -8,6 +8,22 @@ img {
   object-fit: cover;
 }
 
+a.mens-button,
+a.womens-button {
+  font-family: "Open Sans";
+  width: 8em;
+  padding: 1em 2em;
+  text-align: center;
+  background-color: rgb(10, 54, 65);
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
 .front-page-img {
   height: auto;
   width: 100%;
@@ -27,22 +43,6 @@ img {
   color: white;
   text-align: center;
   margin: auto;
-}
-
-a.mens-button,
-a.womens-button {
-  font-family: "Open Sans";
-  width: 8em;
-  padding: 1em 2em;
-  text-align: center;
-  background-color: rgb(10, 54, 65);
-  border-style: solid;
-  border-color: black;
-  cursor: pointer;
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 10%;
 }
 
 .collections {

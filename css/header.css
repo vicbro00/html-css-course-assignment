@@ -47,14 +47,11 @@ header {
   .nav-links a {
     color: white;
     text-decoration: none;
+    padding: 0 2em;
   }
 
   .hamburger-menu {
     display: none;
-  }
-
-  .nav-links a {
-    padding: 0 2em;
   }
 
   .cart {
@@ -66,43 +63,43 @@ header {
 @media (min-width: 370px) and (max-width: 699px){
   html {
     margin: 0;
- }
+  }
 
- body {
-  margin: 0;
- }
+  body {
+    margin: 0;
+  }
 
- ul {
-  display: none;
- }
+  ul {
+    display: none;
+  }
 
-header img {
-  max-height: 1.5em;
-  float: left;
-}
+  header img {
+    max-height: 1.5em;
+    float: left;
+  }
 
- nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
- }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
- .cart {
-  font-size: 1em;
-  margin-right: 0.2em;
- }
+  .cart {
+    font-size: 1em;
+    margin-right: 0.2em;
+  }
 
- .cart-text {
-  display: none;
- }
+  .cart-text {
+    display: none;
+  }
 
- .fa-solid {
-  font-size: 1em;
- }
+  .fa-solid {
+    font-size: 1em;
+  }
 
- .hamburger-menu {
-  margin-left: 0.2em;
- }
+  .hamburger-menu {
+    margin-left: 0.2em;
+  }
 }
 
 /* Media screens for tablet */
