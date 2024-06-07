@@ -41,6 +41,7 @@ header {
   header img {
     height: auto;
     width: 4em;
+    margin-left: 0.5em;
   }
 
   .nav-links a {
@@ -54,10 +55,6 @@ header {
 
   .nav-links a {
     padding: 0 2em;
-  }
-
-  header img {
-    margin-left: 0.5em;
   }
 
   .cart {

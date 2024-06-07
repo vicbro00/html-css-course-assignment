@@ -1,5 +1,4 @@
 /*Footer styling*/
-
 .border {
   width: auto;
   height: 4em;
@@ -35,13 +34,15 @@ footer i {
   margin: 2em 0;
 }
 
-footer img {
-  max-width: 20em;
+/* Media screens for desktop */
+@media (min-width: 1401px) {
+  footer img {
+    max-width: 20em;
+  }
 }
 
 /* Media screen for mobile devices */
 @media (min-width: 370px) and (max-width: 699px) {
-
   body {
     margin: 0;
    }
@@ -63,7 +64,6 @@ footer img {
 
 /*Media screen for tablet devices */
 @media (min-width: 700px) and (max-width: 1390px) {
-
   body {
     margin: 0;
    }

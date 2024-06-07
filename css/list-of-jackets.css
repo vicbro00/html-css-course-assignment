@@ -16,8 +16,6 @@ main p {
 
 main img {
   height: 10em;
-  object-fit: contain;
-  justify-self: center;
 }
 
 section a {
