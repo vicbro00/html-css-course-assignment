@@ -238,6 +238,10 @@ input[type=checkbox] {
   .forms2 {
     margin: auto 1em;
   }
+
+  .methods {
+    display: flex;
+  }
 }
 
 /* Media screens for tablet */
