@@ -11,108 +11,94 @@
 	  <link rel="icon" type="image/png" sizes="16x16" href="./pictures/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="512x512" href="./pictures/android-chrome-512x512.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./pictures/apple-touch-icon.png">
-    <link rel="stylesheet" href="./css/basic-styling.css">
-    <link rel="stylesheet" href="./css/contact.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <script src="https://kit.fontawesome.com/7d33f7d3ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/basic-styling.css">
+    <link rel="stylesheet" href="./css/contact.css">
   </head>
 
   <body id="page-contact">
     <header>
       <nav>
-        <a href="index.html" aria-label="Go to Index Page">
-          <div class="hamburger-menu">
-            <i class="fas fa-bars"></i>
-          </div>
-        </a>
-        <div>
-          <a href="index.html">
-            <img src="./pictures/menu-bar-logo.png" alt="Rainy Days letters only logo">
-          </a>
+        <div class="menu-mobile">
+          <input type="checkbox">
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul class="ul-mobile">
+            <li><a href="index.html">Home</li></a>
+            <li><a href="/list-of-jackets.html">Men</li></a>
+            <li><a href="/list-of-jackets.html">Women</li></a>
+            <li><a href="/contact.html">Contact</li></a>
+            <li><a href="/about.html">About</li></a>
+          </ul>
         </div>
-        <ul class="nav-links">
-          <li>
-            <a href="list-of-jackets.html" target="_blank" class="men">Men's</a>
-          </li>
-          <li>
-            <a href="list-of-jackets.html" target="_blank" class="women">Women's</a>
-          </li>
-          <li>
-            <a href="contact.html" target="_blank" class="contact">Contact</a>
-          </li>
-          <li>
-            <a href="about.html" target="_blank" class="about">About</a>
-          </li>
-        </ul>
+        <div class="menu-desktop">
+          <ul class="ul-desktop">
+            <li><a href="list-of-jackets.html" class="men">Men's</a></li>
+            <li><a href="list-of-jackets.html" class="women">Women's</a></li>
+            <li><a href="contact.html" class="contact">Contact</a></li>
+            <li><a href="about.html" class="about">About</a></li>
+          </ul>
+        </div>
+        <div class="header-logo">
+          <a href="index.html"><img src="./pictures/menu-bar-logo.png" alt="Rainy Days letters only logo"></a>
+        </div>
         <div class="cart">
-          <a href="checkout.html" target="_blank">
-            <i class="fa-solid fa-cart-shopping"></i><div class="cart-text">Cart</div>
-          </a>
-        </div>
+          <a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i><div class="cart-text">Cart</div></a>
+          </div>
       </nav>
     </header>
 
     <main>
       <h1>Contact us here</h1>
-        <p>Send us a message if you have any questions! We will make sure to answer your inquiry in the space of 3-5 business days.</p>
-        <p>(NOTE! This may take longer during holidays).</p>
+      <p>Send us a message if you have any questions! We will make sure to answer your inquiry in the space of 3-5 business days.</p>
+      <p>(NOTE! This may take longer during holidays).</p>
       <div class="form">
         <h2>Send us a question</h2>
         <div class="form-text">
-        <fieldset>
-          <div class="form-left">
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email" pattern=".*hotmail.com" title="Please enter a valid email address">
-            <label for="firstname">First Name:</label>
-            <input type="text" id="firstname" name="firstname">
-          </div>
-          <div class="form-right">
-            <label for="phonenumber">Phone Number:</label>
-            <input type="text" id="phonenumber" name="phonenumber">
-            <label for="lastname">Last Name:</label>
-            <input type="text" id="lastname" name="lastname">
-          </div>
-          <div class="message-container">
-            <label for="message-box" class="message">Message:</label>
-            <textarea id="message-box" name="message-box"></textarea>
-          </div>
-        </fieldset>
-      </div>
-      <a href="index.html" class="button">Send</a>
+          <fieldset>
+            <div class="form-left">
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email" pattern=".*hotmail.com" title="Please enter a valid email address">
+              <label for="firstname">First Name:</label>
+              <input type="text" id="firstname" name="firstname">
+            </div>
+            <div class="form-right">
+              <label for="phonenumber">Phone Number:</label>
+              <input type="text" id="phonenumber" name="phonenumber">
+              <label for="lastname">Last Name:</label>
+              <input type="text" id="lastname" name="lastname">
+            </div>
+            <div class="message-container">
+              <label for="message-box" class="message">Message:</label>
+              <textarea id="message-box" name="message-box"></textarea>
+            </div>
+          </fieldset>
+        </div>
+        <a href="index.html" class="button">Send</a>
       </div>
     </main>
 
     <div class="border"></div>
     <footer>
       <div class="footer-left">
-        <a href="index.html">
-          <img src="./pictures/Logo.png" alt="Rainy Days logo">
-        </a>
+        <a href="index.html"><img src="./pictures/Logo.png" alt="Rainy Days logo"></a>
         <div class="copyright">Copyright &copy;</div>
         <div>
-          <a href="https://www.facebook.com/" aria-label="Go to Facebook Page">
-            <i id="facebook" class="fa-brands fa-square-facebook"></i>
-          </a>
-          <a href="https://www.instagram.com/" aria-label="Go to Instagram Page">
-            <i id="instagram" class="fa-brands fa-square-instagram"></i>
-          </a>
-          <a href="https://www.youtube.com/" aria-label="Go to Youtube Page">
-            <i id="youtube" class="fa-brands fa-youtube"></i>
-          </a>
+          <a href="https://www.facebook.com/" aria-label="Go to Facebook Page"><i id="facebook" class="fa-brands fa-square-facebook"></i></a>
+          <a href="https://www.instagram.com/" aria-label="Go to Instagram Page"><i id="instagram" class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://www.youtube.com/" aria-label="Go to Youtube Page"><i id="youtube" class="fa-brands fa-youtube"></i></a>
         </div>
       </div>
       <div class="footer-right">
         <h3 id="support">Support</h3>
         <h3 id="warehouses">Warehouses</h3>
-        <a href="about.html"><h3 id="about">About</h3>
-        </a>
-        <a href="contact.html"><h3 id="contact">Contact</h3>
-        </a>
+        <a href="about.html"><h3 id="about">About</h3></a>
+        <a href="contact.html"><h3 id="contact">Contact</h3></a>
       </div>
     </footer>
   </body>

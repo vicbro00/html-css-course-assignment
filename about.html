@@ -11,48 +11,44 @@
 	  <link rel="icon" type="image/png" sizes="16x16" href="./pictures/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="512x512" href="./pictures/android-chrome-512x512.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./pictures/apple-touch-icon.png">
-    <link rel="stylesheet" href="./css/basic-styling.css">
-    <link rel="stylesheet" href="./css/about.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7d33f7d3ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/basic-styling.css">
+    <link rel="stylesheet" href="./css/about.css">
   </head>
 
   <body id="page-about">
     <header>
       <nav>
-        <a href="index.html" aria-label="Go to Index Page">
-          <div class="hamburger-menu">
-            <i class="fas fa-bars"></i>
-          </div>
-        </a>
-        <div>
-          <a href="index.html">
-            <img src="./pictures/menu-bar-logo.png" alt="Rainy Days letters only logo">
-          </a>
+        <div class="menu-mobile">
+          <input type="checkbox">
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul class="ul-mobile">
+            <li><a href="index.html">Home</li></a>
+            <li><a href="/list-of-jackets.html">Men</li></a>
+            <li><a href="/list-of-jackets.html">Women</li></a>
+            <li><a href="/contact.html">Contact</li></a>
+            <li><a href="/about.html">About</li></a>
+          </ul>
         </div>
-        <ul class="nav-links">
-          <li>
-            <a href="list-of-jackets.html" target="_blank" class="men">Men's</a>
-          </li>
-          <li>
-            <a href="list-of-jackets.html" target="_blank" class="women">Women's</a>
-          </li>
-          <li>
-            <a href="contact.html" target="_blank" class="contact">Contact</a>
-          </li>
-          <li>
-            <a href="about.html" target="_blank" class="about">About</a>
-          </li>
-        </ul>
+        <div class="menu-desktop">
+          <ul class="ul-desktop">
+            <li><a href="list-of-jackets.html" class="men">Men's</a></li>
+            <li><a href="list-of-jackets.html" class="women">Women's</a></li>
+            <li><a href="contact.html" class="contact">Contact</a></li>
+            <li><a href="about.html" class="about">About</a></li>
+          </ul>
+        </div>
+        <div class="header-logo">
+          <a href="index.html"><img src="./pictures/menu-bar-logo.png" alt="Rainy Days letters only logo"></a>
+        </div>
         <div class="cart">
-          <a href="checkout.html" target="_blank">
-            <i class="fa-solid fa-cart-shopping"></i><div class="cart-text">Cart</div>
-          </a>
-        </div>
+          <a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i><div class="cart-text">Cart</div></a>
+          </div>
       </nav>
     </header>
 
@@ -64,42 +60,31 @@
         <p>Rainy days&#39; goal is for our users to be outside pushing their comfort zones, all while wearing clothing that matches the environement.</p>
         <p>Rainy days was founded in 1989 and we have been aiming to please our customers since.
             We have 150 warehouses in most countries all over the world, and over 5000 excited and career-driven employees.</p>
-        </div>
-      <div class="about-image2">
       </div>
+      <div class="about-image2"></div>
       <div>
         <p>Our whole company started by one man, John Smith, in 1989 who had a dream of owning his own shop selling outdoor clothing.
-            He opened his first shop in London, England, and since then has expanded his  company worldwide.</p>
+          He opened his first shop in London, England, and since then has expanded his  company worldwide.</p>
         <p>Therefore our slogan is and always has been “Pushing the comfort zone”, to remind our users to never back down. </p>
-        </div>
+      </div>
     </main>
 
     <div class="border"></div>
     <footer>
       <div class="footer-left">
-        <a href="index.html">
-          <img src="./pictures/Logo.png" alt="Rainy Days logo">
-        </a>
+        <a href="index.html"><img src="./pictures/Logo.png" alt="Rainy Days logo"></a>
         <div class="copyright">Copyright &copy;</div>
         <div>
-          <a href="https://www.facebook.com/" aria-label="Go to Facebook Page">
-            <i id="facebook" class="fa-brands fa-square-facebook"></i>
-          </a>
-          <a href="https://www.instagram.com/" aria-label="Go to Instagram Page">
-            <i id="instagram" class="fa-brands fa-square-instagram"></i>
-          </a>
-          <a href="https://www.youtube.com/" aria-label="Go to Youtube Page">
-            <i id="youtube" class="fa-brands fa-youtube"></i>
-          </a>
+          <a href="https://www.facebook.com/" aria-label="Go to Facebook Page"><i id="facebook" class="fa-brands fa-square-facebook"></i></a>
+          <a href="https://www.instagram.com/" aria-label="Go to Instagram Page"><i id="instagram" class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://www.youtube.com/" aria-label="Go to Youtube Page"><i id="youtube" class="fa-brands fa-youtube"></i></a>
         </div>
       </div>
       <div class="footer-right">
         <h3 id="support">Support</h3>
         <h3 id="warehouses">Warehouses</h3>
-        <a href="about.html"><h3 id="about">About</h3>
-        </a>
-        <a href="contact.html"><h3 id="contact">Contact</h3>
-        </a>
+        <a href="about.html"><h3 id="about">About</h3></a>
+        <a href="contact.html"><h3 id="contact">Contact</h3></a>
       </div>
     </footer>
   </body>
