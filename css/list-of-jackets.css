@@ -1,100 +1,32 @@
-/*Body styling*/
-h1,
-h2 {
+/*Universal styling*/
+h1 {
   text-align: center;
   color: black;
 }
 
 h2 {
-  font-size: 1.2em;
-}
-
-main p {
-  text-align: right;
-  margin-right: 1em;
+  text-align: center;
+  font-size: 1em;
 }
 
 main img {
-  height: 10em;
+  max-height: 10em;
+  min-width: 10em;
 }
 
-section a {
-  margin: auto;
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2em;
+  justify-content: center;
 }
 
-/* Media screens for desktop */
-@media (min-width: 1401px) {
-  main section {
-    background-color: rgb(10, 54, 65, 10%);
-    margin: 2em 0;
-    height: 20em;
-    width: 16em;
-    display: grid;
-  }
-  
-  #top-list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 5%;
-    justify-content: center;
-    width: 90%;
-    margin: auto;
-  }
-
-  #bottom-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5%;
-    justify-content: center;
-    width: 70%;
-    margin: auto;
-  }
-
-  .list {
-    display: grid;
-    gap: 2em;
-    justify-content: center;
-  }
-}
-
-/* Media screens for mobile */
-@media (min-width: 370px) and (max-width: 699px) {
-  section {
-    display: grid;
-    background-color: rgb(10, 54, 65, 10%);
-    margin: 2em auto;
-  }
-}
-
-/* Media screens for tablet */
-@media (min-width: 700px) and (max-width: 1390px) {
-  #top-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5%;
-    justify-content: center;
-    margin: auto;
-  }
-
-  #bottom-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5%;
-    justify-content: center;
-    margin: auto;
-  }
-
-  .list {
-    display: grid;
-    justify-content: center;
-  }
-
-  main p,
-  h2 {
-    font-size: 1em;
-  }
-
-  main img {
-    height: 10em;
-  }
+.products div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(10, 54, 65, 0.1);
+  padding: 1em;
+  text-align: center;
+  justify-content: space-between;
 }
