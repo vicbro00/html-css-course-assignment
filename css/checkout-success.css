@@ -1,4 +1,4 @@
-/*Body styling*/
+/*Universal styling*/
 main {
   text-align: center;
 }
@@ -28,11 +28,4 @@ a.button {
   padding: 1em 2em;
   display: inline-block;
   margin: 4em auto;
-}
-
-/* Media screens for tablet */
-@media (min-width: 700px) and (max-width: 1390px) {
-  a.button {
-    font-size: 1em;
-  }
 }
