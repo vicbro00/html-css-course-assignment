@@ -57,30 +57,26 @@
       <h1>Contact us here</h1>
       <p>Send us a message if you have any questions! We will make sure to answer your inquiry in the space of 3-5 business days.</p>
       <p>(NOTE! This may take longer during holidays).</p>
-      <div class="form">
+      <fieldset class="form-container">
         <h2>Send us a question</h2>
-        <div class="form-text">
-          <fieldset>
-            <div class="form-left">
-              <label for="email">Email:</label>
-              <input type="text" id="email" name="email" pattern=".*hotmail.com" title="Please enter a valid email address">
-              <label for="firstname">First Name:</label>
-              <input type="text" id="firstname" name="firstname">
-            </div>
-            <div class="form-right">
-              <label for="phonenumber">Phone Number:</label>
-              <input type="text" id="phonenumber" name="phonenumber">
-              <label for="lastname">Last Name:</label>
-              <input type="text" id="lastname" name="lastname">
-            </div>
-            <div class="message-container">
-              <label for="message-box" class="message">Message:</label>
-              <textarea id="message-box" name="message-box"></textarea>
-            </div>
-          </fieldset>
+        <div class="form">
+          <div class="form-child">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" pattern=".*hotmail.com" title="Please enter a valid email address">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname">
+          </div>
+          <div class="form-child">
+            <label for="phonenumber">Phone Number:</label>
+            <input type="text" id="phonenumber" name="phonenumber">
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname">
+          </div>
         </div>
-        <a href="index.html" class="button">Send</a>
-      </div>
+          <label for="message-box" class="message">Message:</label>
+          <textarea id="message-box" name="message-box"></textarea>
+      </fieldset>
+      <a href="index.html" class="button">Send</a>
     </main>
 
     <div class="border"></div>

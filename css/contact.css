@@ -28,3 +28,47 @@ a.button{
 a.button:focus {
   background-color: green;
 }
+
+/*Form styling*/
+fieldset {
+  background-color: rgb(10, 54, 65, 10%);
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.form {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-child {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset textarea {
+  resize: none;
+  min-height: 5em;
+}
+
+/*Media screens for desktop*/
+@media (min-width: 826px) {
+  /*Universal styling*/
+  h2 {
+    margin-bottom: 2em;
+  }
+  
+  /*Form styling*/
+  fieldset input {
+    min-width: 20em;
+  }
+
+  .form {
+    justify-content: space-between;
+  }
+
+  fieldset {
+    padding: 4em 8em;
+  }
+}
