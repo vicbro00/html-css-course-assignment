@@ -5,13 +5,26 @@ main h1 {
 }
 
 /*Main styling*/
-main p {
-  margin: 1em 2em;
-}
-
 main img {
   object-fit: cover;
-  max-width: 50em;
+  max-width: 20em;
   display: flex;
   margin: auto;
+}
+
+main p {
+  text-align: center;
+}
+
+/*Media screens for desktop*/
+@media (min-width: 826px) {
+  main img {
+    min-width: 30em;
+  }
+
+  main p {
+    max-width: 50%;
+    display: flex;
+    margin: 2em auto;
+  }
 }
