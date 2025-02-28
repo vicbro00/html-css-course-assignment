@@ -7,9 +7,10 @@ main h1 {
   display: inline-block;
 }
 
-.complete-btn {
+.button-container {
   display: flex;
-  margin: 2em auto;
+  justify-content: center;
+  margin-top: 2em;
 }
 
 .complete-btn,
