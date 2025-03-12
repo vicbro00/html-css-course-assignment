@@ -22,7 +22,7 @@ Clone the repo.
 1. Clone the repo:
 
 ```bash
-git clone git@https://github.com/vicbro00/html-css-course-assignment.git
+git clone https://github.com/vicbro00/html-css-course-assignment.git
 ```
 
 2. Install the dependencies:
