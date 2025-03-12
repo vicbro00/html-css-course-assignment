@@ -33,7 +33,9 @@ npm install
 
 ### Running
 
-Don't need any additional coding to run the site as it is made with only HTML and CSS.
+Clone or download the project repository to your local machine
+Navigate to the project directory
+Install the project dependencies with npm install
 
 To run the app, run the following commands:
 
